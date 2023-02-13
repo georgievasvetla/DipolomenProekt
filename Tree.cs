@@ -29,11 +29,7 @@ namespace TreePrint
             }
         }
 
-        public void AddChild(Tree<T> newChild)
-        {
-            this.Children.Add(newChild);
-        }
-
+        
         public void SetParent(Tree<T> newParent)
         {
             this.Parent = newParent;
